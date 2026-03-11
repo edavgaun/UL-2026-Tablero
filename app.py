@@ -86,7 +86,7 @@ try:
         color="disponibilidad_pct",
         color_continuous_scale="RdYlBu", # Rojo (pocas bicis) a Azul (muchas bicis)
         size="tamano_marker",            # Aplicamos el tamaño diferenciado
-        size_max=15,
+        size_max=10,
         zoom=zoom_level,
         center={"lat": lat_map, "lon": lon_map},
         height=700,
